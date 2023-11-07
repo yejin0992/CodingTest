@@ -23,6 +23,7 @@ public class Day01 {
 		Scanner sc = new Scanner(System.in);
 		int w = sc.nextInt();
 		int r = sc.nextInt();
-		Math.floor(w*(1+(r/30)));
+		int answer = (int)Math.floor(w*(1+(double)r/30));
+		System.out.println(answer);
 	}
 }
